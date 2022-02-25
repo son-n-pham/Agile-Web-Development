@@ -19,5 +19,4 @@ Based on that, couple of technology will need to be learn:
 
 Uni website
 https://teaching.csse.uwa.edu.au/units/CITS3403/
-
-<a href=./css.MD">CSS Review</a>
+<a href="https://www.example.com/my great page">link</a>
