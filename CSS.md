@@ -25,7 +25,18 @@ color: red
 - Children sit on parents
 
 ## Position:
-- Static
-- Relative
-- Absolute
-- Fixed
+- Static: Default
+- Relative: Position relative to where it would be. Its moving does not affect on the locations of adjacent elements.
+- Absolute: Position relative to its parent. When using absolute, we take the element out of the flow of the document
+- Fixed: Item with fixed position will stay on where it is while the screen is scrolled down.
+
+These position are called in css with the keyword "position".
+
+```css
+div{
+  position: absolute;
+  top: 0;
+}
+```
+
+
