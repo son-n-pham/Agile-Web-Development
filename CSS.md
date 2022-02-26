@@ -63,3 +63,25 @@ There are 3 options:
   - relative to its parent. If parent has font size of 2em and our item's font-size is set 2em, its actual font-size is 2\*2, which is 4em.
   - rem is the option to refer the item size to "root", and not depend on parent. Thus 1rem always equal to 16px.
 
+# Media query breakpoints
+- It is used to fine-tune the format with a specific condition.
+- Example
+
+```css
+/* Set the condition. Here is to apply if screen size is equal or smaller than 1028px
+@media (max-width: 1028px) {
+  
+  /* Now is normal css syntax */
+  /* Set position of class title-image to static and rotate it 0deg */
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    }
+  
+  /* Set text-align of title id to center */
+  #title {
+    text-align: center;
+    }
+}
+```
+
