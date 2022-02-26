@@ -44,8 +44,8 @@ div{
 - The above is not working if the container does not occupy the whole width of the page. If it is the case, "margin: auto" is the solution.
 - Sometimes, some elements are inline with others. Thus we need to take some out by "position: absolute" for the targeted element to be in the center.
 
-## CSS Sizing
-The ae 3 options:
+# CSS Sizing
+There are 3 options:
 - px: static
 - %: dynamic, 100% is equivalent to 16px, it is also depending on its parent similarly to em.
 - em: 
