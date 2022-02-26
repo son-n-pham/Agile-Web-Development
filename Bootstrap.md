@@ -28,7 +28,7 @@
 </div>
 
 <!--This is to have responsive gridding. In bootstrap, 1 row is equal to col12.-->
-<!--In the below, each item size is col-3 if screen size is equal or bigger than large (desktop size).-->
+<!--In the below, each item size is col-3 if screen size is equal or bigger than large (laptop and desktop sizes).-->
 <!--Then each item size is col-4 if screen size is equal or bigger than medium (tablet size).-->
 <!--Then each item size is col-6 if screen size is equal or bigger than small (mobile size).-->
 <!--Finally each item size is col-12 if screen size is smaller than small size (mobile size).-->
