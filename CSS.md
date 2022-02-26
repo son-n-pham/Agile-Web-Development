@@ -85,3 +85,16 @@ There are 3 options:
 }
 ```
 
+# Combining Selectors
+- Multiple selectors: selector1, selector2 { }
+
+```css
+h1, h2, h3, h4 {
+  font-family: "Monteserrat-Bold";
+}
+```
+
+- Hierarchical selectors: selector1 selector2 { }. This is only work in parent-child situation. This is read from right to left, which selector2 is the child of selector1
+- Combined selectors: selector1.selector2 { } **OR** selector1#selector2 { }. This is to read from left to right. These means selector1 with class selector2, or selector1 with id selector2
+- 
+
