@@ -39,6 +39,9 @@ div{
 }
 ```
 
+We can also use float, such as "float: left" to make the item float to the left and other elements in the same container can be wrap around to the right of the item.
+- "clear" is antifloat keyword. For example, clear: left will ensure that no item is floating on the left of the item.
+
 ## Centering Element
 - "text-align: center" can be used to set text in the middle of its container
 - The above is not working if the container does not occupy the whole width of the page. If it is the case, "margin: auto" is the solution.
