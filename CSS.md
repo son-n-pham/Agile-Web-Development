@@ -27,7 +27,7 @@ color: red
 ## Position:
 - Static: Default
 - Relative: Position relative to where it would be. Its moving does not affect on the locations of adjacent elements.
-- Absolute: Position relative to its parent. When using absolute, we take the element out of the flow of the document
+- Absolute: Position relative to its parent. When using absolute, we take the element out of the flow of the document. When using this, top, bottom, left, right can be used to specify the location of the element.
 - Fixed: Item with fixed position will stay on where it is while the screen is scrolled down.
 
 These position are called in css with the keyword "position".
@@ -38,5 +38,10 @@ div{
   top: 0;
 }
 ```
+
+## Centering Element
+- "text-align: center" can be used to set text in the middle of its container
+- The above is not working if the container does not occupy the whole width of the page. If it is the case, "margin: auto" is the solution.
+- Sometimes, some elements are inline with others. Thus we need to take some out by "position: absolute" for the targeted element to be in the center.
 
 
