@@ -24,7 +24,7 @@ color: red
 - Orders come from code
 - Children sit on parents
 
-## Position:
+## Position types:
 - Static: Default
 - Relative: Position relative to where it would be. Its moving does not affect on the locations of adjacent elements.
 - Absolute: Position relative to its parent. When using absolute, we take the element out of the flow of the document. When using this, top, bottom, left, right can be used to specify the location of the element.
@@ -47,6 +47,13 @@ We can also use float, such as "float: left" to make the item float to the left 
 - The above is not working if the container does not occupy the whole width of the page. If it is the case, "margin: auto" is the solution.
 - Sometimes, some elements are inline with others. Thus we need to take some out by "position: absolute" for the targeted element to be in the center.
 
+
+## CSS Z-Index and Stacking Order
+- z-index can be used to move element in the z axis. 
+- z-index value is usually 1, 0 or -1. 0 is the default value
+- z-index can only work if position keyword with value not static is used on both this element and the adjacent element.
+- Besides z-index, other order convention is applied as well.
+
 # CSS Sizing
 There are 3 options:
 - px: static
@@ -56,4 +63,3 @@ There are 3 options:
   - relative to its parent. If parent has font size of 2em and our item's font-size is set 2em, its actual font-size is 2\*2, which is 4em.
   - rem is the option to refer the item size to "root", and not depend on parent. Thus 1rem always equal to 16px.
 
-#CSS Z-Index and Stacking Order
