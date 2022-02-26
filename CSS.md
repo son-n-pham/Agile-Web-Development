@@ -44,4 +44,5 @@ div{
 - The above is not working if the container does not occupy the whole width of the page. If it is the case, "margin: auto" is the solution.
 - Sometimes, some elements are inline with others. Thus we need to take some out by "position: absolute" for the targeted element to be in the center.
 
+## CSS Sizing
 
