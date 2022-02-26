@@ -47,5 +47,8 @@ div{
 ## CSS Sizing
 The ae 3 options:
 - px: static
-- %: dynamic, 100% is equivalent to 16px
-- em: dynamic, 1em equals to 16px
+- %: dynamic, 100% is equivalent to 16px, it is also depending on its parent similarly to em.
+- em: 
+  - dynamic, 1em equals to 16px
+  - relative to its parent. If parent has font size of 2em and our item's font-size is set 2em, its actual font-size is 2\*2, which is 4em.
+  - rem is the option to refer the item size to "root", and not depend on parent. Thus 1rem always equal to 16px.
