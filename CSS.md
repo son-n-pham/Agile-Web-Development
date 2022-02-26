@@ -45,4 +45,7 @@ div{
 - Sometimes, some elements are inline with others. Thus we need to take some out by "position: absolute" for the targeted element to be in the center.
 
 ## CSS Sizing
-
+The ae 3 options:
+- px: static
+- %: dynamic, 100% is equivalent to 16px
+- em: dynamic, 1em equals to 16px
