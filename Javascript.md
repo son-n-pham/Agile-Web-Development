@@ -181,3 +181,16 @@ document.querySelector("li a").classList.add("visibility")
 
 - By doing the above, all styles are in css file while code can be seperated in js file.
 - In addition to "add", we can "remove" or "toggle" classes
+
+## Changing Text and Text Content Properties
+
+There are 2 properties, which are innerHTML and textContext.
+- textContext recognize everything as text, including html and css syntax.
+- innerHTML can recognize html, css syntax from the text when adding them together.
+
+## Manipulating HTML element attributes
+
+- Attributes are anything inside the tag except the tag name. Ie. In <a class="my_link" href=""></a>, attributes are class, href while tag name is a.
+- "attributes" keyword can be used to have the list of all attributes of the element.
+- "getAttribute" is to get the value of the given attributes in the list from "attributes" keyword. Syntax: ...getAttribute("href");
+- "setAttribute" is to set the attribute. Syntax: ...setAttribute("href", "www.google.com")
