@@ -11,6 +11,7 @@ console.log(aVariable)
 - function keyword is used to declare a new function
 
 # Comparators
+Type | Meanings
 --- | ---
 
 \=== | Equal and consider types
