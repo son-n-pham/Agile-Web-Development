@@ -21,3 +21,4 @@ console.log(aVariable)
 \< | Less than
 
 \== | Equal but not consider types
+--- | ---
