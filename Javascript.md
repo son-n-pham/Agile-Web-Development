@@ -157,3 +157,27 @@ Similar to the 2 above but search by Id. However, an element, not array, is retu
 
 ### document.querySelector and document.querySelectorAll
 - Search element by selector similar to CSS's selector
+
+## Changing styles of HTML elements:
+
+Style names can be found in the link below:
+https://www.w3schools.com/jsref/dom_obj_style.asp
+
+In general, we can manipulate a specifc style of an element. However, the most effective way is to add or remove class, whose styles are defined seperately.
+- Firstly, we can use properties classList to have the list of classes with that element.
+- Then, we can add class(es). Below is an example that class visibility is added.
+
+```javascript
+document.querySelector("li a").classList.add("visibility")
+```
+
+- And if class .visibility is defined as below, the selected item will be hidden.
+
+```css
+.visibility {
+    visibility: hidden;
+}
+```
+
+- By doing the above, all styles are in css file while code can be seperated in js file.
+- In addition to "add", we can "remove" or "toggle" classes
