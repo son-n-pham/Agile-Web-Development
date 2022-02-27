@@ -11,13 +11,13 @@ console.log(aVariable)
 - function keyword is used to declare a new function
 
 # Comparators
+--- | ---
+=== | Equal and consider types
 
-=== Equal and consider types
+!== | Not equal
 
-!== Not equal
+\> | More than
 
-\>   More than
+\< | Less than
 
-\<   Less than
-
-\==  Equal but not consider types
+\== | Equal but not consider types
