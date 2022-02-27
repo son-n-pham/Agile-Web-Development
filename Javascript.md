@@ -113,5 +113,17 @@ console.log(myArray.includes(10)) // This returns false
 
 DOM cast webpage into individual object that we can manipulate.
 
-![image](https://user-images.githubusercontent.com/79841341/155871589-1f6ecd99-c1fa-41f9-8714-aa47c07f5b96.png)
+![image](https://user-images.githubusercontent.com/79841341/155874530-bada8aa9-3851-4922-b834-62fb5d5e75e5.png)
+
+Below is an example of accessing an element, assign it to a variable, then modify the attribute of that element through its variable.
+
+```javascript
+// This was run in Chrome console
+
+// Assign an html element to myVariable variable
+var myVariable = document.firstElementChild.lastElementChild.firstElementChild;
+
+// Update the innerHTML attribute to "Goodbye"
+myVariable.innerHTML="Goodbye"
+```
 
