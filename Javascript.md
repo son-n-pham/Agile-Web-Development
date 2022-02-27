@@ -85,3 +85,26 @@ console.log(myArray.includes(10)) // This returns false
 
 </html>
 ```
+
+- Use script src tag to use outer javascript file. The following uses index.js in javascript folder
+
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Learning DOM</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h1>Hello</h1>
+
+<script src="./javascript/index.js" charset="utf-8"></script>
+
+</body>
+
+</html>
+
+```
