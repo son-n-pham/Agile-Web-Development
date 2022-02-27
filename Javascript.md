@@ -135,3 +135,22 @@ document.querySelector("input").click();
 ```
 
 Elements in DOM have properties and methods. Methods and functions are similar but methods are going with objects
+
+## Selecting HTML elements with Javascript
+
+### document.getElementsByTagName -> Return an array
+
+```javascript
+// Get all li elements
+document.getElementsByTagName("li");
+```
+
+### document.getElementsByClassName -> Return an array
+
+```javascript
+// Get all elements with a specific class name of "btn"
+document.getElementsByClassName("btn");
+```
+
+### document.getElementById
+Similar to the 2 above but search by Id. However, an element, not array, is returned because there is only 1 Id in a HTML.
