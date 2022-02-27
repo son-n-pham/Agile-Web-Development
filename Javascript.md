@@ -108,3 +108,10 @@ console.log(myArray.includes(10)) // This returns false
 </html>
 
 ```
+
+# DOM (Document Object Model)
+
+DOM cast webpage into individual object that we can manipulate.
+
+![image](https://user-images.githubusercontent.com/79841341/155871589-1f6ecd99-c1fa-41f9-8714-aa47c07f5b96.png)
+
