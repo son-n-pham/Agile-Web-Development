@@ -12,6 +12,7 @@ console.log(aVariable)
 
 # Comparators
 --- | ---
+
 \=== | Equal and consider types
 
 \!== | Not equal
