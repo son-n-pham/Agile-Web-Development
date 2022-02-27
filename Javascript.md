@@ -25,5 +25,5 @@ Type | Meanings
 Type | Meanings
 --- | ---
 \&& | and
-\|| | or
+\|\| | or
 \! | not
