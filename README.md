@@ -25,4 +25,5 @@ https://teaching.csse.uwa.edu.au/units/CITS3403/
 
 ## <a href="./Bootstrap.md">Bootstrap Review</a>
   
-## <a href="./Javascript.md">Bootstrap Review</a>
+## <a href="./Javascript.md">Javascript and DOM Review</a>
+
