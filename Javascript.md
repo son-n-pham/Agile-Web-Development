@@ -13,14 +13,13 @@ console.log(aVariable)
 # Comparators
 Type | Meanings
 --- | ---
-
 \=== | Equal and consider types
-
+--- | ---
 \!== | Not equal
-
+--- | ---
 \> | More than
-
+--- | ---
 \< | Less than
-
+--- | ---
 \== | Equal but not consider types
 --- | ---
