@@ -127,3 +127,11 @@ var myVariable = document.firstElementChild.lastElementChild.firstElementChild;
 myVariable.innerHTML="Goodbye"
 ```
 
+document.querySelector() can be used to find element by selector.
+
+```javascript
+// Select element "input" by querySelector, then click on the element.
+document.querySelector("input").click();
+```
+
+Elements in DOM have properties and methods. Methods and functions are similar but methods are going with objects
