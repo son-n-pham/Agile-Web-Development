@@ -154,3 +154,6 @@ document.getElementsByClassName("btn");
 
 ### document.getElementById
 Similar to the 2 above but search by Id. However, an element, not array, is returned because there is only 1 Id in a HTML.
+
+### document.querySelector and document.querySelectorAll
+- Search element by selector similar to CSS's selector
