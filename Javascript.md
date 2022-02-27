@@ -18,4 +18,3 @@ Type | Meanings
 \> | More than
 \< | Less than
 \== | Equal but not consider types
---- | ---
