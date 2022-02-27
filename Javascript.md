@@ -13,7 +13,11 @@ console.log(aVariable)
 # Comparators
 
 === Equal and consider types
+
 !== Not equal
+
 \>   More than
+
 \<   Less than
+
 \==  Equal but not consider types
