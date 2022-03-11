@@ -68,7 +68,7 @@ There are 3 options:
 - Example
 
 ```css
-/* Set the condition. Here is to apply if screen size is equal or smaller than 1028px
+/* Set the condition. Here is to apply if screen size is equal or smaller than 1028px */
 @media (max-width: 1028px) {
   
   /* Now is normal css syntax */
