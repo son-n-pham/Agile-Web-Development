@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Excercise 1</title>
+
+	<style>
+		body {
+			background-image: url('https://previews.123rf.com/images/liveincosmos/liveincosmos1802/liveincosmos180200021/96000717-abstract-pastel-watercolor-background-.jpg');
+			background-size: cover;
+		}
+
+		img {
+			width: auto;
+			height: auto;
+		}
+
+		.time_table td, th{
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+
+		.time_table td:nth-child(even), th:nth-child(even) {
+			background-color: #D6EEEE;
+		}
+
+
+	</style>
+</head>
+
+<body>
+
+	<h1>Greeting, It is My Exercise 1</h1>
+
+	<h2>My Favorite Picture</h2>
+	<img src="https://media0.giphy.com/media/MEdRTaYvZBlVMEjwZ3/200w.gif?cid=82a1493bj2msupct3tcb6z3l1edqdv65buf8qeu62ri77ry3&rid=200w.gif&ct=v" alt="My Favorite Picture">
+
+	<hr>
+
+	<section class="semester1_2022">
+		<h2>My Units in Semester 1 of Year 2022</h2>
+		<ul>
+			<li>Agile Web Development</li>
+			<li>Software Testing</li>
+			<li>Machine Learning</li>
+			<li>Data Warehouse</li>
+			<li>Geographic Information</li>
+		</ul>
+	
+		<hr>
+
+		<h2>Time Table</h2>
+
+		<table class="time_table">
+			<tr>
+				<th></th>
+				<th>Mon</th>
+				<th>Tue</th>
+				<th>Wed</th>
+				<th>Thu</th>
+				<th>Fri</th>
+			</tr>
+			<tr>
+				<th>9:00</th>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>Agile Web Development - Workshop</td>
+
+			</tr>
+			<tr>
+				<th>10:00</th>
+				<td></td>
+				<td></td>
+				<td>Geographic Information - Lecture</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<th>11:00</th>
+				<td rowspan="2">Machine Learning - Lab</td>
+				<td rowspan="2">Software Testing - Lecture</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<th>12:00</th>				
+				<td rowspan="2">Data Warehouse - Lecture</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<th>13:00</th>
+				<td></td>
+				<td></td>
+				<td></td>				
+				<td></td>
+			</tr>
+			<tr>
+				<th>14:00</th>
+				<td rowspan="2">Agile Web Development - Lab</td>
+				<td rowspan="2">Machine Learning - Lecture</td>
+				<td rowspan="2">Agile Web Development - Lecture</td>
+				<td></td>
+				<td></td>				
+			</tr>
+			<tr>
+				<th>15:00</th>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</section>
+
+	<hr>
+
+	<section class="user_info">
+		<h2>User Info</h2>
+		<form action="./index.html" method="post">
+			<table>
+				<tr>
+					<td>
+						<label for="user_name">Username: </label>
+					</td>
+					<td>
+						<input type="text" id="user_name" name="user_name" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="email">Email: </label>
+					</td>
+					<td>
+						<input type="email" id="email" name="email">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="dob">Date of Birth: </label>
+					</td>
+					<td>
+						<input type="date" id="dob" name="dob">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						
+					</td>
+					<td>
+						<input type="submit" value="Submit">
+					</td>
+				</tr>
+		</table>
+		</form>
+	</section>
+</body>
+
+
+</html>
