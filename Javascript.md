@@ -9,6 +9,19 @@ var aVariable = 1
 console.log(aVariable)
 ```
 
+var vs let vs const
+- let is used for mutate variable or declare undefined variable
+- const is used to declare a constant (Immutable variable). const cannot declared undefined constant.
+- var should be avoided. It works very similar to let
+- We can have variable without these 3 keywords, but it create global variable and we should avoid this way.
+
+## Value
+
+### 7 Primitive Data Types
+![image](https://user-images.githubusercontent.com/79841341/162580797-1429cce1-daa1-4011-8075-832e6c054bc4.png)
+
+Need to remember that the typeof of null is object, which is a legacy bug.
+
 ## Function
 - function keyword is used to declare a new function
 
