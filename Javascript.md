@@ -22,6 +22,29 @@ var vs let vs const
 
 Need to remember that the typeof of null is object, which is a legacy bug.
 
+### Template Literals for String
+
+```js
+const firstName = "Son";
+const job = "engineer";
+const birthYear = 1982;
+const year = 2037;
+
+// FROM ES6
+// This is to have a combined string easily
+const son = `I'm ${firstName}, a ${year - birthYear} year old ${job}`;
+console.log(son)
+
+// This can be used to generate new string
+const aString = `This is a simple string`
+
+// This can be used to have new line easily
+const aStringWithMultipleLines = `String
+with
+multiple
+lines`
+```
+
 ## Function
 - function keyword is used to declare a new function
 
