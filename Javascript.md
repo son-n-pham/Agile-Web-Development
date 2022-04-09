@@ -36,13 +36,13 @@ const son = `I'm ${firstName}, a ${year - birthYear} year old ${job}`;
 console.log(son)
 
 // This can be used to generate new string
-const aString = `This is a simple string`
+const aString = `This is a simple string`;
 
 // This can be used to have new line easily
 const aStringWithMultipleLines = `String
 with
 multiple
-lines`
+lines`;
 ```
 
 ## Function
