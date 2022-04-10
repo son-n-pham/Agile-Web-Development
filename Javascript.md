@@ -113,7 +113,6 @@ const calcAge2 = function (birthYear, currentYear) {
 	return currentYear - birthYear;
 }
 
-
 // Arrow Function. Arrow function, however, does not have this keyword
 const calcAge3 = (birthYear, currentYear) => currentYear - birthYear;
 
@@ -136,7 +135,7 @@ console.log(calcAge4(birthYear, currentYear));
 - Array can store elements with different type
 - includes function is used to check if the item in an array
 
-```javascript
+```js
 let myArray = [1,"a", 3, false]
 let years = new Array(2009, 2001, 2022);
 console.log(myArray[2]) // This return 3
@@ -186,14 +185,10 @@ const jonas = {
 };
 
 console.log(jonas.age);
-```
 
 console.log(jonas.calcAge());
 };
 ```
-
-### Functions in Objects
-
 
 ## Insert Javascript into website
 
