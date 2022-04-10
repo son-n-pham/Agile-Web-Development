@@ -260,6 +260,8 @@ console.log(jonas.calcAge());
 
 # DOM (Document Object Model)
 
+![image](https://user-images.githubusercontent.com/79841341/162627160-0e6351e0-fcd5-4654-8ccc-b3ae4baa1d03.png)
+
 DOM cast webpage into individual object that we can manipulate.
 
 ![image](https://user-images.githubusercontent.com/79841341/155874530-bada8aa9-3851-4922-b834-62fb5d5e75e5.png)
