@@ -101,9 +101,11 @@ const drink = age >= 18 ? 'wine' : 'water';
 
 ### Declare function
 
-There are 3 ways
+There are various ways
 
 ```js
+'use strict';
+
 // Function Declaration
 function calcAge1(birthYear, currentYear) {
 	return currentYear - birthYear;
@@ -115,8 +117,13 @@ const calcAge2 = function (birthYear, currentYear) {
 }
 
 
-// Arrow Function
+// Arrow Function. Arrow function, however, does not have this keyword
 const calcAge3 = (birthYear, currentYear) => currentYear - birthYear;
+
+// Arrow Function with {}
+const calcAge4 = (birthYear, currentYear) => {
+	return currentYear - birthYear;
+}
 
 let birthYear = 1982;
 let currentYear = 2022;
@@ -125,6 +132,7 @@ let currentYear = 2022;
 console.log(calcAge1(birthYear, currentYear));
 console.log(calcAge2(birthYear, currentYear));
 console.log(calcAge3(birthYear, currentYear));
+console.log(calcAge4(birthYear, currentYear));
 ```
 
 ## Arrays
@@ -132,11 +140,63 @@ console.log(calcAge3(birthYear, currentYear));
 - includes function is used to check if the item in an array
 
 ```javascript
-var myArray = [1,"a", 3, false]
+let myArray = [1,"a", 3, false]
+let years = new Array(2009, 2001, 2022);
 console.log(myArray[2]) // This return 3
 console.log(myArray.includes(3)) // This returns true
 console.log(myArray.includes(10)) // This returns false
 ```
+
+## Objects
+
+### Declare Objects
+It is similar to dictionary in Python.
+
+```js
+// Declare an object
+const jonas = {
+	firstName: 'Jonas',
+	lastName: 'Hello',
+	birthYear: 1991,
+	job: 'teacher',
+	friends: ['Michael', 'Peter', 'Steven'],
+
+	// Function calcAge in object jonas
+	calcAge: function () {
+		return 2037 - this.birthYear;
+	},
+
+	// This is not working
+	// function calcAge2(birthYear) {
+	// 	return 2037 - birthYear;
+	// }
+};
+```
+
+```js
+const jonas = {
+	firstName: 'Jonas',
+	lastName: 'Hello',
+	birthYear: 1991,
+	job: 'teacher',
+	friends: ['Michael', 'Peter', 'Steven'],
+
+	// Function calcAge in object jonas
+	calcAge: function () {
+		this.age = 2037 - this.birthYear
+		return age;
+	}
+};
+
+console.log(jonas.age);
+```
+
+console.log(jonas.calcAge());
+};
+```
+
+### Functions in Objects
+
 
 ## Insert Javascript into website
 
