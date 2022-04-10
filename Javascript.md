@@ -51,9 +51,6 @@ lines`;
 - 0, '', undefined, null, NaN
 - They will be false when being converted to boolean
 
-## Function
-- function keyword is used to declare a new function
-
 ## Comparators
 
 Type | Meanings
