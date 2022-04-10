@@ -45,6 +45,12 @@ multiple
 lines`;
 ```
 
+### Truthy and Falsy Values
+
+#### 5 falsy values
+- 0, '', undefined, null, NaN
+- They will be false when being converted to boolean
+
 ## Function
 - function keyword is used to declare a new function
 
@@ -58,6 +64,18 @@ Type | Meanings
 \< | Less than
 \== | Equal but not consider types
 
+\=== vs \==
+- \=== is strict and does not employ coerce
+- \== is loose and employ coerce
+- For clean code, try to use \=== all the time
+
+```js
+// This returns True
+'18' == 18;
+
+// This return False
+'18' === 18;
+
 ## Combining comparators
 
 Type | Meanings
@@ -65,6 +83,49 @@ Type | Meanings
 \&& | and
 \|\| | or
 \! | not
+
+## Conditional (Ternary) Operator
+
+This is to write if-else in one line of code
+
+```js
+let age = 23;
+// The below is equal if (age>=23) { console.log('I like to drink wine'); } else { console.log('I like to drink water'); }
+age >= 23 ? console.log('I like to drink wine') : console.log('I like to drink water');
+
+// This return variable drink of wine
+const drink = age >= 18 ? 'wine' : 'water';
+```
+
+## Function
+
+### Declare function
+
+There are 3 ways
+
+```js
+// Function Declaration
+function calcAge1(birthYear, currentYear) {
+	return currentYear - birthYear;
+}
+
+// Function Expression
+const calcAge2 = function (birthYear, currentYear) {
+	return currentYear - birthYear;
+}
+
+
+// Arrow Function
+const calcAge3 = (birthYear, currentYear) => currentYear - birthYear;
+
+let birthYear = 1982;
+let currentYear = 2022;
+
+// These give the same results
+console.log(calcAge1(birthYear, currentYear));
+console.log(calcAge2(birthYear, currentYear));
+console.log(calcAge3(birthYear, currentYear));
+```
 
 ## Arrays
 - Array can store elements with different type
