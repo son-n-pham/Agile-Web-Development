@@ -309,6 +309,12 @@ Similar to the 2 above but search by Id. However, an element, not array, is retu
 ### document.querySelector and document.querySelectorAll
 - Search element by selector similar to CSS's selector
 
+### Difference between getElement and querySelector
+- getElement returns HTMLCollection which are updated when the elements are changed.
+- querySelect returns NodeList, which are not updated when the elements are changed.
+
+![image](https://user-images.githubusercontent.com/79841341/162730428-7b775a19-a414-452b-b02c-fc371b60c353.png)
+
 ## Changing styles of HTML elements:
 
 Style names can be found in the link below:
@@ -345,3 +351,19 @@ There are 2 properties, which are innerHTML and textContext.
 - "attributes" keyword can be used to have the list of all attributes of the element.
 - "getAttribute" is to get the value of the given attributes in the list from "attributes" keyword. Syntax: ...getAttribute("href");
 - "setAttribute" is to set the attribute. Syntax: ...setAttribute("href", "www.google.com")
+
+## Working with classes
+
+Below are the common methods to work with class in html element
+- .classList.add()
+- .classList.remove()
+- .classList.toggle()
+- .classList.contains()
+
+## Coordinating in web browser
+
+<a href="javascript/13-Advanced-DOM-Bankist/starter copy/index.html">Go to SmoothScrolling to learn more about Coordinating</a>
+
+## Working with Events
+
+<a href="javascript/13-Advanced-DOM-Bankist/starter copy/index.html">Go to WORKING WITH EVENTS, EVENT CAPTURING, BABBLING</a>
