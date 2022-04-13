@@ -367,3 +367,19 @@ Below are the common methods to work with class in html element
 ## Working with Events
 
 <a href="javascript/13-Advanced-DOM-Bankist/starter copy/index.html">Go to WORKING WITH EVENTS, EVENT CAPTURING, BABBLING</a>
+
+## Traverse DOM
+
+<a href="javascript/13-Advanced-DOM-Bankist/starter copy/index.html">Go to DOMTraversing</a>
+
+### Going downward:
+- querySelector, childNodes, children ...
+
+### Going upward:
+- parentNode, parentElement
+- closest: Opposite querySelector
+
+### Going sideway
+- previousElementSibling, nextElementSibling
+- Not important: previousSibling, nextSibling
+- To get all siblings, we can go upward to parent, then get all children.
