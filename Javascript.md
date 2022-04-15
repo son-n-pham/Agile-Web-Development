@@ -132,6 +132,8 @@ console.log(calcAge4(birthYear, currentYear));
 ```
 
 ### this Keyword
+
+Simply speaking, this is the user using the function.
 ![image](https://user-images.githubusercontent.com/79841341/163572822-e104c2f5-6b28-4a36-bbf3-70592bd6e882.png)
 
 ## Arrays
