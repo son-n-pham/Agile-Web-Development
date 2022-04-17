@@ -131,6 +131,13 @@ console.log(calcAge3(birthYear, currentYear));
 console.log(calcAge4(birthYear, currentYear));
 ```
 
+### this Keyword
+
+- Simply speaking, "this" is the user using the function.
+- Never use arrow function as methods in objects because "this" in arrow function does not refer to those objects as the owner, but the more global owner. It, however, can be used inside other function to trace back the owner of that other function.
+
+![image](https://user-images.githubusercontent.com/79841341/163572822-e104c2f5-6b28-4a36-bbf3-70592bd6e882.png)
+
 ## Arrays
 - Array can store elements with different type
 - includes function is used to check if the item in an array
