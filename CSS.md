@@ -4,7 +4,7 @@
 
 # CSS Units:
 ## Relative:
-- %: To parent
+- %: To parent element
 - em: to font=size of parent element
 - rem: to font-size of root element
 - vw: to 1% of viewport width
