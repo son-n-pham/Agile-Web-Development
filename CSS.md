@@ -1,3 +1,7 @@
+# CSS syntax
+
+![image](https://user-images.githubusercontent.com/79841341/171294466-ecf75feb-079a-4352-b363-a26955e300be.png)
+
 # Class vs Id
 
 Class | Id
