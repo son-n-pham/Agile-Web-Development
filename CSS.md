@@ -2,6 +2,14 @@
 
 ![image](https://user-images.githubusercontent.com/79841341/171294466-ecf75feb-079a-4352-b363-a26955e300be.png)
 
+# CSS Units:
+## Relative:
+- %: To parent
+- em: to font=size of parent element
+- rem: to font-size of root element
+- vw: to 1% of viewport width
+- vh: to 1% of viewport height
+
 # Class vs Id
 
 Class | Id
