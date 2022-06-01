@@ -10,6 +10,9 @@
 - vw: to 1% of viewport width
 - vh: to 1% of viewport height
 
+# Color:
+https://www.color-hex.com/
+
 # Class vs Id
 
 Class | Id
