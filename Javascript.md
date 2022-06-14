@@ -72,6 +72,7 @@ Type | Meanings
 
 // This return False
 '18' === 18;
+```
 
 ## Combining comparators
 
