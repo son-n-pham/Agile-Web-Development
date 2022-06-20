@@ -97,6 +97,8 @@ const drink = age >= 18 ? 'wine' : 'water';
 
 ## Function
 
+![image](https://user-images.githubusercontent.com/79841341/174612679-dccbd0a0-29ba-4284-a236-78d329ae6c0d.png)
+
 ### Declare function
 
 There are various ways
