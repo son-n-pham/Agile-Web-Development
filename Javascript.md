@@ -141,6 +141,13 @@ console.log(calcAge4(birthYear, currentYear));
 
 ![image](https://user-images.githubusercontent.com/79841341/163572822-e104c2f5-6b28-4a36-bbf3-70592bd6e882.png)
 
+### Closures
+
+![image](https://user-images.githubusercontent.com/79841341/174729793-a24dc691-0cea-4dfa-b9bf-e836ee4a2cba.png)
+
+![image](https://user-images.githubusercontent.com/79841341/174729809-24e6e07d-efad-46a0-9177-f04596c7135e.png)
+
+
 ## Arrays
 - Array can store elements with different type
 - includes function is used to check if the item in an array
