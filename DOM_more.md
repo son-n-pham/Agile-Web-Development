@@ -54,3 +54,66 @@ addEventListener is the most popular and preferred as:
 - More then one function can be add to an element
 - It has additional options to make it more useful
 - We can use removeEventListener
+
+### Form events & preventDefault
+- As the default, action of form redirect to new page. To prevent that default, we use event.preventDefault. Below is the example code.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Basics</title>
+</head>
+
+<body>
+    <h1>Form Events</h1>
+
+    <form action="/dogs" id="tweetForm">
+        <input type="text" name="username" placeholder="username">
+        <input type="text" name="tweet" placeholder="tweet">
+        <button>Post Tweet</button>
+    </form>
+
+    <h2>Tweets:</h2>
+    <ul id="tweets">
+
+    </ul>
+
+    <!-- <script src="app.js"></script> -->
+    <script>
+        const username = document.querySelector('input[name="username"]');
+        const tweet = document.querySelector('input[name="tweet"]');
+        const postBtn = document.querySelector('button');
+
+        // Select ul for output
+        const tweetOutput = document.querySelector('#tweets');
+
+        // eventListener
+        postBtn.addEventListener('click', (e) => {
+            // Prevent action of form to redirect to new page
+            e.preventDefault();
+
+            // Extract data from inputs
+            const usernameInput = username.value;
+            const tweetInput = tweet.value;
+
+            // Create new li element
+            const newLi = document.createElement("li");
+            newLi.innerHTML = `<h3>${usernameInput}: ${tweetInput}`;
+
+            // Append new li as the new child to ul element
+            tweetOutput.appendChild(newLi);
+
+            // Reset values of inputs back to blank
+            username.value = "";
+            tweet.value = "";
+        });
+
+    </script>
+</body>
+
+</html>
+```
