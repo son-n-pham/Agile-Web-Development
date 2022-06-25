@@ -116,3 +116,9 @@ addEventListener is the most popular and preferred as:
 
 </html>
 ```
+
+### Event bubling:
+- To stop event bubling, we use event.preventPropagation
+
+### Event delegation
+- To remove the children added by js, we need to select parent, addEventListener to parent, then use e.target.remove() to remove the new child.
