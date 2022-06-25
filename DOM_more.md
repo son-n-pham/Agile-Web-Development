@@ -18,3 +18,18 @@ Document object is our entry point into the world of the DOM. It contains repres
 ## Changing styles
 - Element has style attribute, which manipulate inline styles of elements.
 - The issue is that style attribute only gives inline style, thus we do not know the styles of the element. To overcome that issue, we use window.getComputedStyle to retrieve the actual styles of any elements after website rendering.
+- It is, however, not a good practice to change inline style directly; therefore, using classList would be the better option.
+  - add, remove, contains, toggle can be used with classList
+
+## Travering Parent/Child/Sibling
+- Parent: parentElement
+- Child: children
+- Sibling: nextElementSibling and previousElementSibling
+
+## Append & AppendChild
+- document.createElement to create new element. We then can assign the value to the new element.
+  - Ie. We can assign textContent = 'a string'
+  - or we can use append
+
+- appendChild can be use to append a child to the target element
+- insertAdjacentElement, before, after can be used to add sibling to the target element
