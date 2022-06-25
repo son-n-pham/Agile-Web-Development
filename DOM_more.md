@@ -1,5 +1,6 @@
 # DOM (Document Object Model)
 
+## DOM
 ![image](https://user-images.githubusercontent.com/79841341/175767585-84fc5fff-e223-4a90-8341-adc02b38f136.png)
 
 Document object is our entry point into the world of the DOM. It contains representations of all the content n a page, plus tons of useful methods and properties.
@@ -8,28 +9,48 @@ Document object is our entry point into the world of the DOM. It contains repres
 
 ![image](https://user-images.githubusercontent.com/79841341/175768913-af89a7ef-dc94-4884-adb3-63b84b86f754.png)
 
-## innerHTML, textContent, innerText:
+### innerHTML, textContent, innerText:
 - textContent and innerText are very similar, except textContent is showing all text including the one with display of none.
 - innerHTML has the html syntax, which browser can understand to execute.
 
-## Attributes
+### Attributes
 - We can use getAttribute and setAttribute to retrieve and set attribute of element
 
-## Changing styles
+### Changing styles
 - Element has style attribute, which manipulate inline styles of elements.
 - The issue is that style attribute only gives inline style, thus we do not know the styles of the element. To overcome that issue, we use window.getComputedStyle to retrieve the actual styles of any elements after website rendering.
 - It is, however, not a good practice to change inline style directly; therefore, using classList would be the better option.
   - add, remove, contains, toggle can be used with classList
 
-## Travering Parent/Child/Sibling
+### Travering Parent/Child/Sibling
 - Parent: parentElement
 - Child: children
 - Sibling: nextElementSibling and previousElementSibling
 
-## Append & AppendChild
+### append & appendChild
 - document.createElement to create new element. We then can assign the value to the new element.
   - Ie. We can assign textContent = 'a string'
   - or we can use append
-
 - appendChild can be use to append a child to the target element
 - insertAdjacentElement, before, after can be used to add sibling to the target element
+
+### remove and removeChild
+- remove can remove the target element
+- removeChild remove the child of the target element.
+
+## DOM Events
+
+### Inline events
+- Adding attribute onclick into element in html
+
+### onclick property
+
+### addEventListener
+
+Reference of events:
+https://developer.mozilla.org/en-US/docs/Web/Events
+
+addEventListener is the most popular and preferred as:
+- More then one function can be add to an element
+- It has additional options to make it more useful
+- We can use removeEventListener
