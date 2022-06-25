@@ -82,7 +82,6 @@ addEventListener is the most popular and preferred as:
 
     </ul>
 
-    <!-- <script src="app.js"></script> -->
     <script>
         const username = document.querySelector('input[name="username"]');
         const tweet = document.querySelector('input[name="tweet"]');
