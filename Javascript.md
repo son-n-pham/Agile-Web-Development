@@ -162,6 +162,15 @@ console.log(myArray.includes(10)) // This returns false
 
 ![image](https://user-images.githubusercontent.com/79841341/176363944-62b3f7e8-d77e-4c46-ba9f-a176769fc062.png)
 
+Map can access current item, current index and the whole array
+
+```js
+const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+
+movements.map((mov, i, arr) => console.log(`Item ${i} of ${arr} is: ${mov}`))
+```
+
+
 ## Objects
 
 ### Declare Objects
