@@ -160,6 +160,8 @@ console.log(myArray.includes(3)) // This returns true
 console.log(myArray.includes(10)) // This returns false
 ```
 
+![image](https://user-images.githubusercontent.com/79841341/176363944-62b3f7e8-d77e-4c46-ba9f-a176769fc062.png)
+
 ## Objects
 
 ### Declare Objects
