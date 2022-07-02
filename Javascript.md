@@ -412,8 +412,15 @@ Below are the common methods to work with class in html element
 - Not important: previousSibling, nextSibling
 - To get all siblings, we can go upward to parent, then get all children.
 
-# AJAX (Asynchronous Javascrip And XML)
+## OOP (Object Oriented Programming)
+
+![image](https://user-images.githubusercontent.com/79841341/177004316-c1436f94-51e2-40b5-94db-592357e14b70.png)
+
+![image](https://user-images.githubusercontent.com/79841341/177004322-33f6d4ca-c3a1-4117-834d-277c5ccae456.png)
+
+
+## AJAX (Asynchronous Javascrip And XML)
 
 <a href="https://github.com/public-apis/public-apis">Public API Collection in GitHub</a>
 
-## First AJAX with XMLHttpRequest
+### First AJAX with XMLHttpRequest
