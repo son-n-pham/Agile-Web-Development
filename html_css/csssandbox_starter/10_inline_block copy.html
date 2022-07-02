@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Inline & Block Styling</title>
+  <style>
+    li {
+      display: inline;
+      /* padding-right: 20px; */
+    }
+
+    li a {
+      padding-right: 20px;
+    }
+
+    img {
+      display: block;
+      margin: auto;
+    }
+
+    .box {
+      width: 32%;
+      display: inline-block;
+      box-sizing: border-box;
+      background: #f4f4f4;
+      padding: 20px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li><a href="#">Technology</a></li>
+    <li><a href="#">Business</a></li>
+    <li><a href="#">Fashion</a></li>
+  </ul>
+
+  <br><br>
+
+  <!-- img element is inline element, thus we cannot get it center with margin: auto -->
+  <!-- It needs to be converted to block or inline-block to center it -->
+  <img src="./img/leaf.png" alt="My image">
+
+  <div class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ab fuga adipisci iure? Beatae sequi sed
+      adipisci totam dolorem debitis tenetur placeat ipsam ut ipsum magni labore necessitatibus hic maiores, doloribus
+      et eligendi excepturi officia inventore repudiandae. Dolor odit aliquid harum, pariatur molestiae sint quis
+      dolorem explicabo, dicta omnis velit.</p>
+  </div>
+  <div class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ab fuga adipisci iure? Beatae sequi sed
+      adipisci totam dolorem debitis tenetur placeat ipsam ut ipsum magni labore necessitatibus hic maiores, doloribus
+      et eligendi excepturi officia inventore repudiandae. Dolor odit aliquid harum, pariatur molestiae sint quis
+      dolorem explicabo, dicta omnis velit.</p>
+  </div>
+  <div class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ab fuga adipisci iure? Beatae sequi sed
+      adipisci totam dolorem debitis tenetur placeat ipsam ut ipsum magni labore necessitatibus hic maiores, doloribus
+      et eligendi excepturi officia inventore repudiandae. Dolor odit aliquid harum, pariatur molestiae sint quis
+      dolorem explicabo, dicta omnis velit.</p>
+  </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Assignment 2 - option 2 - PRF192x_03_VN</title>
+
+		<style>
+			h1 {
+			color: rgb(112, 30, 30);
+			size: 20px;
+		}
+
+/* check if css file connect to html file */
+		input,
+		button {
+			margin: 10px;
+			padding: 5px;
+		}
+
+		</style>
+  </head>
+  <body>
+    <h1>Assignment 2 - PHAM NGOC HAI - HAIPNse00270x@funix.edu.vn</h1>
+    <p>simple calculator</p>
+    <form>
+      <input
+        type="number"
+        id="number1"
+        name="number1"
+        placeholder="Gia tri 1"
+      />
+    </form>
+
+    <button id="plus">+</button>
+    <button id="minus">-</button>
+    <button id="multiply">*</button>
+    <button id="divide">/</button>
+
+    <form>
+      <input type="number" id="number2" name="number2" placeholder="Gia tri 2"/>
+    </form>
+
+    <button id="equal">=</button>
+
+    <form>
+      <label for="result">ket qua</label>
+      <input type="text" id="result" name="result"/>
+    </form>
+
+    <script>
+      document.getElementById("result").textContent = "Hello";
+
+      const plusBtn = document.querySelector("#plus");
+      const minusBtn = document.querySelector("#minus");
+      const multiplyBtn = document.querySelector("#multiply");
+      const divideBtn = document.querySelector("#divide");
+      const equalBtn = document.querySelector("#equal");
+
+      let operation;
+
+      plusBtn.addEventListener("click", function () {
+        operation = 'plus';
+      });
+
+      minusBtn.addEventListener("click", function () {
+        operation = 'minus';
+      });
+
+      multiplyBtn.addEventListener("click", function () {
+        operation = 'multiply';
+      });
+
+      divideBtn.addEventListener("click", function () {
+        operation = 'divide';
+      });
+
+      const calculation = (num1, num2, operation) => {
+        if (operation === 'plus') {
+          return (num1 + num2);
+        }
+        if (operation === 'minus') {
+          return (num1 - num2);
+        }
+        if (operation === 'multiply') {
+          return (num1 * num2);
+        }
+        if (operation === 'divide') {
+          if (num2 !== 0) {
+            return (num1 / num2);
+          }
+          else {
+            window.alert("Division by 0! Number 2 needs to be different from 0.");
+            return "Division by 0!";
+          }
+        }
+      };
+
+      equalBtn.addEventListener("click", function () {
+        if (operation) {
+          const num1 = parseInt(document.getElementById("number1").value);
+          const num2 = parseInt(document.querySelector("#number2").value);
+
+          document.getElementById("result").value = calculation(num1, num2, operation);        
+        }
+        else {
+          window.alert("You need to selection operation (plus, minus, muliply or divide)")
+        }
+      });
+		</script>
+  </body>
+</html>

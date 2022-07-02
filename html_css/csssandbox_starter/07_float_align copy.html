@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Float & Align</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    .container {
+      max-width:560px;
+      margin: 30px auto;
+    }
+
+    .box {
+      background-color: #f4f4f4;
+      padding: 20px;
+      margin-bottom: 20px;
+      border: #333 solid 2px;
+      text-align: center;
+    }
+
+    #box-2 {
+      float:left;
+      width: 70%;
+    }
+
+    #box-3 {
+      float: right;
+      width: 28%
+    }
+
+    .clr{
+      clear:both
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div id="box-1" class="box">
+      <h3>Heading</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, nulla. Rerum architecto magni repudiandae tempore, obcaecati illo qui ullam nemo.</p>
+    </div>
+    <div id="box-2" class="box">
+      <h3>Heading</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, nulla. Rerum architecto magni repudiandae tempore, obcaecati illo qui ullam nemo.</p>
+    </div>
+    <div id="box-3" class="box">
+      <h3>Heading</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, nulla. Rerum architecto magni repudiandae tempore, obcaecati illo qui ullam nemo.</p>
+    </div>
+    <div class="clr"></div>
+    <div id="box-4" class="box">
+      <h3>Heading</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, nulla. Rerum architecto magni repudiandae tempore, obcaecati illo qui ullam nemo.</p>
+    </div>
+  </div>
+  
+</body>
+
+</html>

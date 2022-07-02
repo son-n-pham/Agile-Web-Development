@@ -1,15 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>CSS Positioning</title>
   <style>
-   
+    body {
+      height: 4000px
+    }
+
+    .box {
+      width: 100px;
+      height: 100px;
+    }
+
+    .container {
+      position: relative;
+      width: 500px;
+      height: 500px;
+      background: #333;
+    }
+
+    #box-1 {
+      position: relative;
+      top: 50px;
+      left: 50px;
+      background: red;
+      z-index: 1;
+    }
+
+    /* box-2 is inside container*/
+    /* As default, it has static position */
+    /* Thus it does not move with top and left */
+    /* To move it, we need to set its position to absolute or relative */
+    /* With absolution position, box-2 is taken out of the layout of container */
+    /* And box-3 takes up the location of box-3*/
+    /* With relative, box-2 can be moved out of its original position in container */
+    /* But its location in container is still occupied by itself, thus box-3 still stays in the same position. */
+    #box-2 {
+      position: absolute;
+      top: 70px;
+      left: 70px;
+      background: orange;
+    }
+
+    #box-3 {
+      background: yellow;
+    }
+
+    #box-4 {
+      position: fixed;
+      background: blue;
+    }
+
+    /* Sticky position allow to stick the box-5 to any position when scrolling. In this case, it sticks to top: 10px */
+    #box-5 {
+      position: sticky;
+      top: 10px;
+      background: violet;
+      z-index: -1;
+    }
   </style>
 </head>
+
 <body>
- 
+  <div id="box-1" class="box"></div>
+  <div class="container">
+    <div id="box-2" class="box"></div>
+    <div id="box-3" class="box"></div>
+  </div>
+  <div id="box-4" class="box"></div>
+  <div id="box-5" class="box"></div>
+
 </body>
+
 </html>

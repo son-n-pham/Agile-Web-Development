@@ -1,0 +1,106 @@
+html {
+	/* 62.5% of 16px browser font size is 10px */
+	font-size: 62.5%;
+}
+
+* {
+	font-size: 1.6rem;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	background-color: #333;
+	color: white;
+}
+
+
+/* HEADER */
+header {
+	height: 30vh;
+	border-bottom: solid 0.5rem white;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+header .again {
+	position: absolute;
+	top: 2rem;
+	left: 2rem;
+}
+
+header .between {
+	position: absolute;
+	top: 2rem;
+	right: 2rem;
+}
+
+header .number {
+	display: inline-block;
+	background-color: white;
+	padding: 0.2rem 5rem;
+	color: #333;
+	font-size: 5rem;
+	position: absolute;
+	top: 22vh;
+	left: 43vw;
+}
+
+header h1 {
+	font-size: 4rem;
+}
+
+.btn {
+	font-size: 2rem;
+	background-color: white;
+	padding: 0.5rem 2rem;
+}
+
+/* MAIN */
+main {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-top: 15vh;
+}
+
+/* left of MAIN */
+.left {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.left .guess {
+	background-color: #333;
+	color: white;
+	border: 0.2rem solid white;
+	font-size: 3rem;
+	display: inline-block;
+	margin-bottom: 3rem;
+}
+
+.left .guess+*:before {
+	content: "99";
+	color: white;
+}
+
+/* right of MAIN */
+.right {
+	text-align: center;
+}
+
+.right .message {
+	font-size: 2.5rem;
+	margin-bottom: 10vh;
+}
+
+.right p,
+.right span {
+	font-size: 3rem;
+}

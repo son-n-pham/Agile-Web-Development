@@ -1,0 +1,23 @@
+{
+  "name": "agile-web-development",
+  "version": "1.0.0",
+  "description": "The course from UWA include the below:\r ![image](https://user-images.githubusercontent.com/79841341/155514942-1f15f3b6-1877-405d-b480-d3ad7731bba4.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/son-n-pham/Agile-Web-Development.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/son-n-pham/Agile-Web-Development/issues"
+  },
+  "homepage": "https://github.com/son-n-pham/Agile-Web-Development#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

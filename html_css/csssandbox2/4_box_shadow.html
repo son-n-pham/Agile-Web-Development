@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Box Shadows</title>
+	<style>
+		.container {
+			display: flex;
+		}
+
+		.box {
+			padding: 1rem;
+			margin: 1rem;
+			background: coral;
+			color: #fff;
+			border-radius: 10px;
+		}
+
+		.box-1 {
+			/* offset-x | offset-y | color */
+			box-shadow: 10px 10px teal;
+		}
+
+		.box-2 {
+			/* offset-x | offset-y | blur-radius | color */
+			box-shadow: 10px 10px 10px teal;
+		}
+
+		.box-3 {
+			/* offset-x | offset-y | blur-radius | spread-radius | color */
+			box-shadow: 10px 10px 10px 1px rgba(0,0,0,03);
+		}
+
+		.box-4 {
+			/* offset-x | offset-y | blur-radius | spread-radius | color */
+			box-shadow: -10px -10px 10px 1px rgba(0,0,0,03);
+		}
+
+		.box-5 {
+			/* insert | offset-x | offset-y | blur-radius | spread-radius | color */
+			box-shadow: inset 10px 10px 10px 1px rgba(0,0,0,03);
+		}
+
+		.box-6 {
+			/* Multiple Shadows */
+			box-shadow: 3px 3px teal, -3px -3px yellow ;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		
+		<div class="box box-1">
+			<h3>Heading</h3>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum cumque omnis ad quod ducimus. Dicta dolore expedita quae ab sint?</p>
+		</div>
+
+		<div class="box box-2">
+			<h3>Heading</h3>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum cumque omnis ad quod ducimus. Dicta dolore expedita quae ab sint?</p>
+		</div>
+
+		<div class="box box-3">
+			<h3>Heading</h3>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum cumque omnis ad quod ducimus. Dicta dolore expedita quae ab sint?</p>
+		</div>
+
+		<div class="box box-4">
+			<h3>Heading</h3>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum cumque omnis ad quod ducimus. Dicta dolore expedita quae ab sint?</p>
+		</div>
+
+		<div class="box box-5">
+			<h3>Heading</h3>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum cumque omnis ad quod ducimus. Dicta dolore expedita quae ab sint?</p>
+		</div>
+
+		<div class="box box-6">
+			<h3>Heading</h3>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum cumque omnis ad quod ducimus. Dicta dolore expedita quae ab sint?</p>
+		</div>
+
+	</div>
+
+</body>
+</html>

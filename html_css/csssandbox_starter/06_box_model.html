@@ -6,10 +6,39 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Box Model / Margin & Padding</title>
   <style>
-    
+    /* CSS Reset */
+    * {
+    margin: 0;
+    padding: 0;
+    /* This to keep box width as its defined width. If padding is added, the text inside is squeezed. */
+    box-sizing: border-box;
+    }
+
+    .box {
+      background-color: #f4f4f4;
+      border: black solid 2px;
+      width: 500px;
+
+      /* Padding on all sides */
+      padding: 20px;
+
+      /* Padding per side */
+      padding: 10px 20px 10px 20px;
+
+      /* Margin on all sides */
+      margin: 20px;
+    }
   </style>
 </head>
 <body>
+  <div class="box">
+    <h3>Box One</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto incidunt non molestias saepe quasi qui voluptatem itaque laboriosam eum. Maiores magnam iure nam minus doloribus vitae unde consectetur accusamus a.</p>
+  </div>
+  <div class="box">
+    <h3>Box Two</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto incidunt non molestias saepe quasi qui voluptatem itaque laboriosam eum. Maiores magnam iure nam minus doloribus vitae unde consectetur accusamus a.</p>
+  </div>
   
 </body>
 </html>

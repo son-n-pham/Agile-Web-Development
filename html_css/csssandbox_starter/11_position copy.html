@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Positioning</title>
+  <style>
+    body {
+      height: 5000px;
+    }
+    
+    .box {
+      width: 100px;
+      height: 100px;
+    }
+
+    .container {
+      background: #333;
+      width: 300px;
+      height: 300px;
+      position: relative;
+      left: 100px;
+    }
+
+    #box-1 {
+      background: red;
+      position: relative;
+      top: 50px;
+      left: 50px;
+      z-index: 1;
+    }
+    #box-2 {
+      position: absolute;
+      left: 20px;
+      background: yellow;
+    }
+    #box-3 {
+      position: absolute;
+      bottom: 30px;
+      right: 10px;
+      background: green;
+    }
+    #box-4 {
+      /* fixed box-4 to a specific location on the screen */
+      position: fixed;
+      background: blue;
+    }
+    #box-5 {
+      /* Stick box-5 to top 0 when we scroll */
+      position: sticky;
+      top: 0;
+      background: orange;
+    }
+  </style>
+</head>
+<body>
+  <div id="box-1" class="box"></div>
+  
+  <div class="container">
+    <div id="box-2" class="box"></div>
+    <div id="box-3" class="box"></div>
+  </div>
+
+  <div id="box-4" class="box"></div>
+  <div id="box-5" class="box"></div>
+</body>
+</html>

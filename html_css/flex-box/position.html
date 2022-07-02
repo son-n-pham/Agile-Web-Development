@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Position</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="">
+		<style>
+			div {
+				width: 100px;
+				height: 100px;
+				background-color: rgb(63, 51, 78);
+				border: solid 1px;
+				margin: 20px;
+				display: inline-block;
+			}
+
+			.middle {
+				background-color: paleturquoise;
+				text-align: center;
+			}
+
+			#static .middle {
+				/* Static is the default position. All location attributes are not working with static position */
+				position: static;
+				top: 50px;
+				left: 50px;
+			}
+
+			#relative .middle {
+				/* With relative, top, left, right, bottom is working and they are relative to the original location of the element. The original space of the element, however, is reserved when the element is moved around */
+				position: relative;
+				top: 50px;
+				left: 50px;
+
+			}
+
+			#absolute .middle {
+				/* With absolute, top, left, right, bottom is working and they are relative to the closest ancestor with position different from static. The original space of the element, however, is not reserved when the element has the absolute position */
+				position: absolute;
+				top: 50px;
+				left: 50px;
+			}
+
+
+		</style>
+	</head>
+	<body>
+		<!--[if lt IE 7]>
+			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+		<h1>Position Property</h1>
+
+		<section id="static">
+			<h2>Static</h2>
+			<div>left</div>
+			<div class="middle">static</div>
+			<div>right</div>
+		</section>
+
+		<section id="relative">
+			<h2>Relative</h2>
+			<div>left</div>
+			<div class="middle">relative</div>
+			<div>right</div>
+		</section>
+		
+		<section id="absolute">
+			<h2>Absolute</h2>
+			<div>left</div>
+			<div class="middle">absolute</div>
+			<div>right</div>
+		</section>
+		
+		<script src="" async defer></script>
+	</body>
+</html>
