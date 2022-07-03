@@ -418,6 +418,8 @@ Below are the common methods to work with class in html element
 
 ![image](https://user-images.githubusercontent.com/79841341/177004322-33f6d4ca-c3a1-4117-834d-277c5ccae456.png)
 
+![image](https://user-images.githubusercontent.com/79841341/177028392-5f1091a0-c3cf-4c86-98f2-7cc0dd99516b.png)
+
 <a href="javascript/14-OOP/starter - Copy/script.js">Code of OOP</a>
 
 ## AJAX (Asynchronous Javascrip And XML)
