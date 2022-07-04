@@ -426,4 +426,7 @@ Below are the common methods to work with class in html element
 
 <a href="https://github.com/public-apis/public-apis">Public API Collection in GitHub</a>
 
+![image](https://user-images.githubusercontent.com/79841341/177183348-64b134b6-85ea-476a-b87a-6a92295344c9.png)
+
+
 ### First AJAX with XMLHttpRequest
