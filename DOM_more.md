@@ -9,6 +9,9 @@ Document object is our entry point into the world of the DOM. It contains repres
 
 ![image](https://user-images.githubusercontent.com/79841341/175768913-af89a7ef-dc94-4884-adb3-63b84b86f754.png)
 
+![image](https://user-images.githubusercontent.com/79841341/178139796-1ec0cdb9-65cd-4307-b921-839481566d1c.png)
+
+
 ### innerHTML, textContent, innerText:
 - textContent and innerText are very similar, except textContent is showing all text including the one with display of none.
 - innerHTML has the html syntax, which browser can understand to execute.
