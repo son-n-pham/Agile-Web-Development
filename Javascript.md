@@ -2,6 +2,12 @@
 
 This is just for reviewing some of Javascript syntax
 
+## Loading JS script
+
+![image](https://user-images.githubusercontent.com/79841341/178311363-9adf5d6f-ed26-445e-b6b5-1395cd68bb4c.png)
+
+![image](https://user-images.githubusercontent.com/79841341/178311390-45820547-0769-419d-9231-4344cf6dcbd5.png)
+
 ## Variable
 var keyword is used to declare a new variable
 ```javascript
