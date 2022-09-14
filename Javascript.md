@@ -436,3 +436,7 @@ Below are the common methods to work with class in html element
 
 
 ### First AJAX with XMLHttpRequest
+
+## Modules
+
+![image](https://user-images.githubusercontent.com/79841341/190144472-acc0d096-fbe3-4dbf-b0af-1e2a219becd8.png)
