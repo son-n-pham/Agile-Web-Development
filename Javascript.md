@@ -440,3 +440,52 @@ Below are the common methods to work with class in html element
 ## Modules
 
 ![image](https://user-images.githubusercontent.com/79841341/190144472-acc0d096-fbe3-4dbf-b0af-1e2a219becd8.png)
+
+![image](https://user-images.githubusercontent.com/79841341/193451408-94c8680a-4932-40f1-82bc-8cf41081d9c6.png)
+
+### Introduction to npm
+- npm is Node Package Management
+- Check if npm is installed and its version
+
+```cli
+npm -v
+```
+
+- Run npm init to initially the npm
+
+```cli
+npm init
+```
+
+- After the above, package.json was created. It stores all configuration of the project
+
+![image](https://user-images.githubusercontent.com/79841341/193459854-198b8da8-9662-47fe-971a-a2f9bdded65a.png)
+
+- When install package by npm, the package is updated into package.json file. At the same time, the package is downloaded into the node_modules folder. If we delete the whole node_modules folder, we just need to run "npm i" or "npm install" and packages mentioned in the package.json will be downloaded again.
+
+### Bundling with Parcel and npm script
+- Install Parcel, it is the dev-dependencies
+
+```cli
+npm i parcel --save-dev
+```
+
+![image](https://user-images.githubusercontent.com/79841341/193461485-d04f7d75-c13c-4dea-b9c1-abe0cfe43869.png)
+
+- To run parcel, we use npx or npm script. Below is the npx command. Once running, parcel generate dist folder with index.html, js file ... and open the new webpage in the localhost:1234, which is similar to live-server.
+
+```cli
+npx parcel index.html
+```
+
+- The 2nd way to run parcel is using npm script, which is running script in package.json. To do so, we add "parcel index.html" into package.json first, then run the cli
+
+```cli
+npm run start
+```
+
+- When we have the final product, we can use Parcel to build the final version with "parcel build index.html". This will give the compacted version of html and js files. *Bug: Need to remove 'main':'script.js' for this parcel build to work*
+
+![image](https://user-images.githubusercontent.com/79841341/193462497-0f7ea476-6843-45ed-9d5a-bd3c189806d5.png)
+
+### Configuring Babel and Polyfilling
