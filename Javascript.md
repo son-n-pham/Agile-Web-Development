@@ -469,14 +469,15 @@ npm init
 
 ### Bundling with Parcel and npm script
 - Install Parcel, it is the dev-dependencies
-
+- dev-dependencies is to build the application but not included into the code.
+- The below is to install parcel locally in the project.
 ```cli
 npm i parcel --save-dev
 ```
 
 ![image](https://user-images.githubusercontent.com/79841341/193461485-d04f7d75-c13c-4dea-b9c1-abe0cfe43869.png)
 
-- To run parcel, we use npx or npm script. Below is the npx command. Once running, parcel generate dist folder with index.html, js file ... and open the new webpage in the localhost:1234, which is similar to live-server.
+- To run parcel which is installed locally, we use npx or npm script. Below is the npx command. Once running, parcel generate dist folder with index.html, js file ... and open the new webpage in the localhost:1234, which is similar to live-server.
 
 ```cli
 npx parcel index.html
