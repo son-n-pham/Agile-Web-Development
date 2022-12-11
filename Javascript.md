@@ -510,3 +510,9 @@ import 'core-js/stable'
 import 'core-js/stable/array/find';
 import 'core-js/stable/promise';
 ```
+
+### Declarative and Functional JS Principles
+
+![image](https://user-images.githubusercontent.com/79841341/206909724-514a8190-4964-4535-9904-82c3c174f623.png)
+
+![image](https://user-images.githubusercontent.com/79841341/206909931-764d8589-64fc-4624-a0c6-ef7788415a7e.png)
