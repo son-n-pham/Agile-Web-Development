@@ -496,9 +496,17 @@ npm run start
 ### Configuring Babel and Polyfilling
 - Babel is included in Parcel, which transpile the codes to previous versions so that the code can be run in all browser.
 - However, Babel cannot handle complicated new syntax.
-- Polyfilling is the solution with core-js
-- Polyfilling can polyfile everything or we can select which is polyfiled.
+- Polyfilling is the solution with core-js. we need to install core-js
+```
+npm install core-js
+```
+- Polyfilling can polyfill everything or we can select which is polyfilld.
 ```js
 // This is to polyfill everything
 import 'core-js/stable'
+```
+- Or the below is to target specific ones
+```js
+import 'core-js/stable/array/find';
+import 'core-js/stable/promise';
 ```
